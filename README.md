@@ -18,7 +18,7 @@ The infrastructure is designed to handle horizontal scaling and ensure high avai
 🔗 **View the AWS Architecture Diagram**  
 [[Lucidchart Diagram](https://lucid.app/lucidchart/d3d4a065-6e75-4896-b234-f00387908262/edit?viewport_loc=-2803%2C-1569%2C6244%2C3066%2C0_0&invitationId=inv_a4a0273e-8b9d-4f10-92b2-0eb31cdf2c0b)](https://lucid.app/lucidchart/d3d4a065-6e75-4896-b234-f00387908262/edit?viewport_loc=-741%2C-928%2C3813%2C1872%2C0_0&invitationId=inv_a4a0273e-8b9d-4f10-92b2-0eb31cdf2c0b)
 
-![Uploading Screenshot 2025-08-19 234043.png…]()
+<img width="1325" height="772" alt="Screenshot 2025-08-19 234043" src="https://github.com/user-attachments/assets/ed4feb1b-c2ac-455e-9c35-8a5bb2795339" />
 
 
 ## 📦 Project Structure
@@ -60,7 +60,8 @@ echo "Hello from $(hostname -f)" > /var/www/html/index.html
 - Selected subnets in multiple Availability Zones (1a, 1b, 1c).
 - Security group allowed HTTP access from 0.0.0.0/0.
 - Created a Target Group with HTTP protocol and health check path '/'.
--  ![Uploading 5.png…]()
+
+<img width="860" height="402" alt="5" src="https://github.com/user-attachments/assets/ec199901-b482-41ae-82a5-fb518e358b57" />
 
 4. Auto Scaling Group (ASG)
 
